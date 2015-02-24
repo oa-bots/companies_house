@@ -1,0 +1,20 @@
+{
+  "bot_id": "companies_house",
+  "title": "Companies House ETL",
+  "description": "Port of Companies House ETL",
+  "language": "ruby",
+  "data_type": "address",
+  "company_fields": {
+    "name": "company"
+  },
+  "files": [
+    "scraper.rb"
+  ],
+  "frequency": "monthly",
+  "publisher": {
+    "name": "Companies House",
+    "url": "http://download.companieshouse.gov.uk/",
+    "terms": "Open Government License",
+    "terms_url": "http://download.companieshouse.gov.uk/en_output.html"
+  }
+}
